@@ -1,0 +1,18 @@
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ develop ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+name: ssh-scp-ssh-pipelines
+  uses: cross-the-world/ssh-scp-ssh-pipelines@v1.1.4
+  with:
+    # ssh remote host
+    host: 
+    165.232.186.219
+    user: 
+    root
+    key: # optional
+    asdF1234@a
